@@ -26,13 +26,8 @@ https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API k
      docker compose up web mongo
   3. Run below command to create docker containers for client:
      docker compose run client
-  4. Below users are created in the database while app startup, which can be used for login:
-     [a] username: karan
-         password: infa@123
-     [b] username: arjun
-         password: root@456
-     [c] username: dummy_user
-         password: dummy_pass
+  4. Few users are created in the database while app startup, which can be used for login. 
+  Refer forecast.py file (present in src folder) to get the login details of users {USER_LIST}
   5. Post login, user can enter a number depending on the task he/she wishes to perform.
   6. Run below command to remove docker containers:
       docker compose down
