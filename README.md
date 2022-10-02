@@ -66,5 +66,10 @@ https://api.openweathermap.org/
   https://stackoverflow.com/questions/5685406/inconsistent-use-of-tabs-and-spaces-in-indentation
 
 
-
+# Troubleshoot
+  If some connection error comes while running the client first time (docker compose run client), follow below steps to resolve:
+  1. delete the db folder created in the current working directory.
+  2. delete all docker containers created while starting the app.
+  3. Create docker containers for mongo and server. (docker compose up web mongo)
+  4. create docker containers for client app to run (docker compose run client)
   
