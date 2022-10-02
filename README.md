@@ -14,13 +14,13 @@ The user can login into the application via command line and can issue the follo
 The weather details are fetched from a public weather API: 
   https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
 
-#Tech stack used: MongoDB, Flask, Docker
+# Tech stack used: MongoDB, Flask, Docker
 
-#Install dependencies:
+# Install dependencies:
   1. Python 3.10.7
   2. Docker
   
-#How to run the application?
+# How to run the application?
   1. Clone the git repository.
   2. Run below command to create docker containers for mongo and server:
      docker compose up web mongo
