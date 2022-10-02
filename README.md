@@ -1,10 +1,10 @@
 # weather-app
-A python flask app to query the weather details of a city using its latititude and longitude.
+A python flask app to query the weather details of a city using its latitude and longitude.
 
 # Description
 
 The user can login into the application via command line and can issue the following queries:
-  1. Weather of <location> - each weather query will cost $0.18 - (address should be in the form of latitude longitude)
+  1. Weather of location - each weather query will cost $0.18 - (address should be in the form of latitude longitude)
   2. Last login of current user
   3. List logins of current user 
   4. List all users in the database
@@ -12,7 +12,7 @@ The user can login into the application via command line and can issue the follo
   6. List all queries made by the current user.
 
 The weather details are fetched from a public weather API: 
-https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+https://api.openweathermap.org/
 
 # Tech stack used: MongoDB, Flask, Docker
 
